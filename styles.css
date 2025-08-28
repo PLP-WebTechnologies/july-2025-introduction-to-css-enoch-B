@@ -1,0 +1,77 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header styling */
+.site-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-bottom: 5px solid #555;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid white;
+}
+
+/* Intro section */
+.intro {
+  background-color: #e0f7fa;
+  padding: 20px;
+  margin: 20px;
+  border: 2px dashed #00796b;
+}
+
+/* Card layout */
+.cards {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  width: 45%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  border-top: 5px solid #555;
+}
+
+/* Button styling */
+.cta-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  background-color: #00796b;
+  color: white;
+  cursor: pointer;
+}
